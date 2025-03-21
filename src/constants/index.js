@@ -38,6 +38,7 @@ import {
   flask,
   chat,
   tradingvalley,
+  bookstore,
 } from "../assets";
 
 export const navLinks = [
@@ -126,6 +127,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "E-commerce Bookstore System",
+    company_name: "Academic Project (Python, Streamlit)",
+    icon: bookstore,
+    iconBg: "#E6DEDD",
+    date: "Aug 2024 - Dec 2024",
+    points: [
+      "Designed and implemented a full-stack e-commerce bookstore system with a dynamic, responsive frontend using React and TypeScript, featuring a home page, category pages, and a shopping cart with real-time data updates.",
+      "Enhanced the frontend with a shopping cart featuring add/remove functionality, persistent data via local storage, and client/server-side validation for checkout workflows using React Context for efficient state management and scalability.",
+      "Developed a robust backend using Java (JSP/Servlet), leveraging the DAO pattern for efficient database interaction with MySQL, and implemented server-side validation to ensure data integrity in cart and checkout processes.",
+      "Architected and deployed the application on AWS Cloud, configuring EC2 instances, VPC, and NAT Gateway for a secure deployment, ensuring the database server remains private while the application server is publicly accessible." ,
+    ]
+  },
   {
     title: "FullStack Software Engineer intern",
     company_name: "TradingValley",

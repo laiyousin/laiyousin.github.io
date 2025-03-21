@@ -51,6 +51,7 @@ import road from "./company/road.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bookstore from "./field_of_books_logo.png"
 
 export {
   logo,
@@ -102,4 +103,5 @@ export {
   flask,
   tradingvalley,
   chat,
+  bookstore,
 };
