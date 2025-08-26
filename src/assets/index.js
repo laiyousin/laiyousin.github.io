@@ -52,6 +52,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bookstore from "./field_of_books_logo.png"
+import vtinnovation from "./company/vtinnovation.png"
 
 export {
   logo,
