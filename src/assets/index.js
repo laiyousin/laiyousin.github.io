@@ -104,4 +104,5 @@ export {
   tradingvalley,
   chat,
   bookstore,
+  vtinnovation,
 };

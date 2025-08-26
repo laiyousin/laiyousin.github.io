@@ -39,6 +39,7 @@ import {
   chat,
   tradingvalley,
   bookstore,
+  vtinnovation,
 } from "../assets";
 
 export const navLinks = [
@@ -127,6 +128,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Student Info AI Agent",
+    company_name: "Academic Project (LangGraph, RAG, React, Flask)",
+    icon: vtinnovation,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 - May 2025",
+    points: [
+      "Engineered the backend of a student support AI agent using LangGraph and OpenAI API, integrating RAG to restrict answers to school-provided content.",
+      "Collected and indexed school websites and documents with Chroma, enabling the system to generate grounded responses with source URLs for verification, task completion, and direct navigation.",
+      "Developed backend services with Flask and RESTful APIs to support chatbot, URL history tracking, and a notification system that emails students based on user-defined toggles.",
+    ]
+  },
   {
     title: "E-commerce Bookstore System",
     company_name: "Academic Project (Python, Streamlit)",
